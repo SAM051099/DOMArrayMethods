@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(100deg,rgb(5, 44, 128),rgb(6, 95, 168));
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(157, 233, 17);
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+}
+
+aside {
+    padding: 10px;
+    width: 250px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #111;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: blue;
+    color: azure;
+}
+
+main {
+    background-color: rgb(52, 218, 240);
+    flex: 1;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #111;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    margin: 0 0 20px;
+    color: rgb(231, 15, 15);
+}
+
+h3 {
+    background-color: rgb(120, 168, 64);
+    border-bottom: 1px solid #111;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    margin: 20px 0 0;
+    color: azure;
+    border-radius: 10px;
+}
+
+.person {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
